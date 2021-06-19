@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #0A5275;
+	font-family: "华文楷体";
+}
+
+ul {
+	list-style: none;
+	margin-left: 7rem;
+	background-color:#2C3E50;
+	padding-bottom: 1.2rem;
+}
+
+ul li {
+	display: inline-block;
+	padding-top: 1.25rem;
+	padding-right: 2.5rem;
+}
+
+nav a {
+	color: #ecf0f1;
+	text-decoration: none;
+	font-size: 2.5rem;
+	padding: 15px 15px;
+	border-radius: 8px;
+}
+
+nav a:hover {
+	background-color: #ecf0f1;
+	color: #2c3e50;
+}
+
+nav a.active {
+	background: yellow;
+	color: black;
+}
+
+#main-menu {
+	z-index: 9999;
+	position: fixed;
+	text-align: center;
+}
+
+#section1 {
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+}
+
+#maph {
+	height: 48rem;
+	padding: 0.3125rem;
+	border: 0.1rem solid rgba(25, 186, 139, 0.17);
+	margin-top: 1.5rem;
+	margin-left: 10rem;
+	margin-right: 10rem;
+	background: #E6E4E4;
+}
+
+/* #section2 {
+	height: 100vh;
+	background-position: center;
+
+} */
+
+#section3 {
+	height: 100vh;
+	background-position: center;
+
+}
+
+#section4 {
+	height: 100vh;
+}
+
+#section5 {
+	height: 100vh;
+}
+
+#section6 {
+	height: 100vh;
+}
+
+section {
+	width: 100%;
+	margin: 0;
+	padding: 100px;
+}
+
+p{
+	font-family: "华文楷体";
+	color: #ffffff;
+	font-size: 2.5rem;
+	text-align: center;
+	margin-bottom: -0.625rem;
+}
+
+h1{
+	font-family: "华文楷体";
+	color: #ffffff;
+	line-height: 3rem;
+}
+
+/* table 人口表格(按行政区划) */
+.fl-table {
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 60%;
+    max-width: 60%;
+   white-space: nowrap;
+    background-color: white;
+}
+.fl-table td, .fl-table th {
+    text-align: center;
+	font-weight: bold;
+    padding: 8px;
+}
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 20px;
+}
+.fl-table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
