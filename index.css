@@ -3,9 +3,6 @@
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;
 }
-/* * {
-	box-sizing: border-box;
-} */
 
 html,body {
 	width: 100%;
@@ -71,12 +68,12 @@ nav a.active {
 }
 
 #section2 {
-	height: 270vh;
+	height: 270%;
 
 }
 
 #section3 {
-	height: auto;
+	height: 200%;
 	background-position: center;
 
 }
@@ -111,10 +108,6 @@ h1{
 }
 
 /* table 人口表格(按行政区划) */
-.column{
-	width: 100%;
-	height: auto;
-}
 .table{
 	float: left;
 	width: 50%;
@@ -212,14 +205,15 @@ h4{
 .chart4{
 	float: left;
 	width: 100%;
-	height: 26.5rem;
+	height: 32rem;
+	margin-top: 1.25rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
 }
 .chart41{
 	float: left;
 	width: 32.1%;
-	height: 25rem;
+	height: 22rem;
 	margin: 0.625rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
@@ -227,7 +221,7 @@ h4{
 .chart42{
 	float: left;
 	width: 32.1%;
-	height: 25rem;
+	height: 22rem;
 	margin: 0.625rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
@@ -235,28 +229,38 @@ h4{
 .chart43{
 	float: left;
 	width: 32.1%;
-	height: 25rem;
+	height: 22rem;
 	margin: 0.625rem;
-	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
-	background:rgba(255, 255, 255, 0.05);
-}
-.chart05{
-	float: left;
-	margin-left: 25rem;
-	width: 50%;
-	height: 25rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
 }
 .chart5{
 	float: left;
-	margin-left: 18rem;
-	width: 65%;
+	margin-left: 15rem;
+	width: 70%;
+	height: 26.5rem;
+	margin-top: 1.25rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart05{
+	float: right;
+	margin: 0.625rem;
+	width: 60%;
 	height: 25rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
 }
-.chart51{
+.chart6{
+	float: left;
+	margin-left: 15rem;
+	margin-top: 1.25rem;
+	width: 70%;
+	height: 30%;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart61{
 	float: left;
 	width: 40%;
 	height: 23.5rem;
@@ -264,7 +268,7 @@ h4{
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
 }
-.chart52{
+.chart62{
 	float: right;
 	width: 55%;
 	height: 23.5rem;
