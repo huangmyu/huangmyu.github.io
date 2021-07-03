@@ -1,15 +1,25 @@
 * {
-	box-sizing: border-box;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
 }
+/* * {
+	box-sizing: border-box;
+} */
 
-body {
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 	background: #0A5275;
 	font-family: "华文楷体";
 }
 
 ul {
 	list-style: none;
-	margin-left: 7rem;
+	margin-left: 17%;
+	width: 100%;
 	background-color:#2C3E50;
 	padding-bottom: 1.2rem;
 }
@@ -46,7 +56,7 @@ nav a.active {
 
 #section1 {
 	background-size: cover;
-	height: 100vh;
+	height: 90vh;
 	background-position: center;
 }
 
@@ -60,14 +70,13 @@ nav a.active {
 	background: #E6E4E4;
 }
 
-/* #section2 {
-	height: 100vh;
-	background-position: center;
+#section2 {
+	height: 270vh;
 
-} */
+}
 
 #section3 {
-	height: 100vh;
+	height: auto;
 	background-position: center;
 
 }
@@ -80,9 +89,6 @@ nav a.active {
 	height: 100vh;
 }
 
-#section6 {
-	height: 100vh;
-}
 
 section {
 	width: 100%;
@@ -105,15 +111,22 @@ h1{
 }
 
 /* table 人口表格(按行政区划) */
+.column{
+	width: 100%;
+	height: auto;
+}
+.table{
+	float: left;
+	width: 50%;
+}
 .fl-table {
     border-radius: 5px;
     font-size: 20px;
     font-weight: normal;
     border: none;
     border-collapse: collapse;
-    width: 60%;
-    max-width: 60%;
-   white-space: nowrap;
+    width: 100%;
+    white-space: nowrap;
     background-color: white;
 }
 .fl-table td, .fl-table th {
@@ -135,4 +148,129 @@ h1{
 }
 .fl-table tr:nth-child(even) {
     background: #F8F8F8;
+}
+
+h2{
+	font-family: "华文楷体";
+	color: #ffffff;
+	line-height: 1.2rem;
+}
+h3{
+	font-family: "华文楷体";
+	color: #ffffff;
+	font-size: 1.2rem;
+}
+.a{
+	float: left;
+	width: 48%;
+	height: 20rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);		
+	margin-top: 0.25rem;
+	margin-left: 0.625rem;
+	background:rgba(255, 255, 255, 0.05);	
+	}
+.chart01{
+	float: left;
+	width: 50%;
+	height: 98%;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);		
+	margin-top: 0.25rem;
+	margin-left: 0.25rem;
+	background:rgba(255, 255, 255, 0.05);
+}
+h4{
+	font-family: "华文楷体";
+	color: #ffffff;
+	font-size: 1.3rem;
+	line-height: 2.2rem;
+}
+.chart02{
+	float: left;
+	width: 100%;
+	height: 25rem;
+	margin-top: 1.25rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart3{
+	float: left;
+	width: 100%;
+	height: 22rem;
+	margin-top: 1.25rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart03{
+	float: left;
+	width: 65%;
+	height: 98%;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);		
+	margin-top: 0.25rem;
+	margin-left: 0.25rem;
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart4{
+	float: left;
+	width: 100%;
+	height: 26.5rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart41{
+	float: left;
+	width: 32.1%;
+	height: 25rem;
+	margin: 0.625rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart42{
+	float: left;
+	width: 32.1%;
+	height: 25rem;
+	margin: 0.625rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart43{
+	float: left;
+	width: 32.1%;
+	height: 25rem;
+	margin: 0.625rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart05{
+	float: left;
+	margin-left: 25rem;
+	width: 50%;
+	height: 25rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart5{
+	float: left;
+	margin-left: 18rem;
+	width: 65%;
+	height: 25rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart51{
+	float: left;
+	width: 40%;
+	height: 23.5rem;
+	margin: 0.625rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart52{
+	float: right;
+	width: 55%;
+	height: 23.5rem;
+	margin-top: 0.625rem;
+	margin-bottom: 0.625rem;
+	margin-right: 0.625rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
 }
