@@ -60,7 +60,7 @@ nav a.active {
 }
 
 #maph {
-	height: 35rem;
+	height: 80rem;
 	width: 90%;
 	padding: 0.3125rem;
 	border: 0.1rem solid rgba(25, 186, 139, 0.17);
@@ -70,22 +70,22 @@ nav a.active {
 }
 
 #section2 {
-	height: 320%;
+	height: 280%;
 
 }
 
 #section3 {
-	height: 240%;
+	height: 200%;
 	background-position: center;
 
 }
 
 #section4 {
-	height: 180%;
+	height: 150%;
 }
 
 #section5 {
-	height: 170%;
+	height: 150%;
 }
 
 
