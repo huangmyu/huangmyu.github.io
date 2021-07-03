@@ -107,7 +107,7 @@
           url: "https://cxqttkl.github.io/web4gis15/china.geojson",
 		  renderer: renderer,
 		  popupTemplate:{
-			  title:"{NAME}"
+// 			  title:"{NAME}"
 		  }
         });
         map.add(geoJSONLayer);
