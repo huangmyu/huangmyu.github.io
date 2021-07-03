@@ -60,7 +60,7 @@ nav a.active {
 }
 
 #maph {
-	height: 70rem;
+	height: 50rem;
 	width: 90%;
 	padding: 0.3125rem;
 	border: 0.1rem solid rgba(25, 186, 139, 0.17);
@@ -70,18 +70,18 @@ nav a.active {
 }
 
 #section2 {
-	height: 240%;
+	height: 220%;
 
 }
 
 #section3 {
-	height: 180%;
+	height: 160%;
 	background-position: center;
 
 }
 
 #section4 {
-	height: 130%;
+	height: 120%;
 }
 
 #section5 {
@@ -370,7 +370,7 @@ h5{
 }
 .chart10{
 	float: left;
-	margin-left: 14rem;
+	margin-left: 8.5rem;
 	width: 75%;
 	height: 32rem;
 	margin-top: 1.25rem;
@@ -380,9 +380,9 @@ h5{
 .chart101{
 	float: left;
 	margin-right: 0;
-	margin-top: 0.625rem;
-	margin-bottom: 0.625rem;
-	margin-left: 0.625rem;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+	margin-left: 0.25rem;
 	width: 48.7%;
 	height: 22rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
@@ -391,9 +391,9 @@ h5{
 .chart102{
 	float: right;
 	margin-left: 0;
-	margin-top: 0.625rem;
-	margin-bottom: 0.625rem;
-	margin-right: 0.625rem;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+	margin-right: 0.25rem;
 	width: 48.7%;
 	height: 22rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
@@ -401,7 +401,7 @@ h5{
 }
 .chart11{
 	float: left;
-	margin-left: 14rem;
+	margin-left: 8.5rem;
 	width: 75%;
 	height: 5rem;
 	margin-top: 1.25rem;
