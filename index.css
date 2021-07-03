@@ -15,8 +15,10 @@ html,body {
 
 ul {
 	list-style: none;
-	margin-left: 17%;
-	width: 100%;
+	position: fixed;
+	float: left;
+	left: 8%;
+	width: 80%;
 	background-color:#2C3E50;
 	padding-bottom: 1.2rem;
 }
@@ -30,7 +32,7 @@ ul li {
 nav a {
 	color: #ecf0f1;
 	text-decoration: none;
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	padding: 15px 15px;
 	border-radius: 8px;
 }
@@ -53,37 +55,37 @@ nav a.active {
 
 #section1 {
 	background-size: cover;
-	height: 90vh;
+	height: 110%;
 	background-position: center;
 }
 
 #maph {
-	height: 48rem;
+	height: 35rem;
+	width: 90%;
 	padding: 0.3125rem;
 	border: 0.1rem solid rgba(25, 186, 139, 0.17);
-	margin-top: 1.5rem;
-	margin-left: 10rem;
-	margin-right: 10rem;
+/* 	margin-top: 0.5%; */
+	margin-left: 3%;
 	background: #E6E4E4;
 }
 
 #section2 {
-	height: 270%;
+	height: 320%;
 
 }
 
 #section3 {
-	height: 200%;
+	height: 240%;
 	background-position: center;
 
 }
 
 #section4 {
-	height: 100vh;
+	height: 180%;
 }
 
 #section5 {
-	height: 100vh;
+	height: 170%;
 }
 
 
@@ -96,21 +98,23 @@ section {
 p{
 	font-family: "华文楷体";
 	color: #ffffff;
-	font-size: 2.5rem;
+	font-size: 2rem;
 	text-align: center;
 	margin-bottom: -0.625rem;
 }
 
 h1{
-	font-family: "华文楷体";
+	text-decoration: none;
 	color: #ffffff;
-	line-height: 3rem;
+	font-size: 1.1rem;
+	line-height: 2.2rem;
 }
 
 /* table 人口表格(按行政区划) */
 .table{
 	float: left;
 	width: 50%;
+	margin-right: 0.625rem;
 }
 .fl-table {
     border-radius: 5px;
@@ -129,7 +133,7 @@ h1{
 }
 .fl-table td {
     border-right: 1px solid #f8f8f8;
-    font-size: 20px;
+    font-size: 12.4px;
 }
 .fl-table thead th {
     color: #ffffff;
@@ -144,19 +148,19 @@ h1{
 }
 
 h2{
-	font-family: "华文楷体";
 	color: #ffffff;
-	line-height: 1.2rem;
+	font-size: 1.1rem;
 }
 h3{
-	font-family: "华文楷体";
+	left: 5%;
 	color: #ffffff;
-	font-size: 1.2rem;
+	font-size: 0.8rem;
+	line-height: 1.5rem;
 }
-.a{
+.chart1{
 	float: left;
 	width: 48%;
-	height: 20rem;
+	height: 15rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);		
 	margin-top: 0.25rem;
 	margin-left: 0.625rem;
@@ -165,22 +169,21 @@ h3{
 .chart01{
 	float: left;
 	width: 50%;
-	height: 98%;
+	height: 97%;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);		
 	margin-top: 0.25rem;
 	margin-left: 0.25rem;
 	background:rgba(255, 255, 255, 0.05);
 }
 h4{
-	font-family: "华文楷体";
 	color: #ffffff;
-	font-size: 1.3rem;
-	line-height: 2.2rem;
+	font-size: 1.0rem;
+	line-height: 1.8rem;
 }
-.chart02{
+.chart2{
 	float: left;
 	width: 100%;
-	height: 25rem;
+	height: 18rem;
 	margin-top: 1.25rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
@@ -188,7 +191,7 @@ h4{
 .chart3{
 	float: left;
 	width: 100%;
-	height: 22rem;
+	height: 16rem;
 	margin-top: 1.25rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
@@ -202,43 +205,53 @@ h4{
 	margin-left: 0.25rem;
 	background:rgba(255, 255, 255, 0.05);
 }
+h5{
+	color: #ffffff;
+	font-size:0.8rem;
+	line-height: 1.8rem;
+}
 .chart4{
 	float: left;
 	width: 100%;
-	height: 32rem;
+	height: 26rem;
 	margin-top: 1.25rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
 }
 .chart41{
 	float: left;
-	width: 32.1%;
-	height: 22rem;
-	margin: 0.625rem;
+	width: 32.5%;
+	height: 19rem;
+	margin-left: 0.4rem;
+	margin-bottom: 0.4rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
 }
 .chart42{
 	float: left;
-	width: 32.1%;
-	height: 22rem;
-	margin: 0.625rem;
+	width: 32.5%;
+	height: 19rem;
+	margin-left: 0.4rem;
+	margin-bottom: 0.4rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
 }
 .chart43{
 	float: left;
-	width: 32.1%;
-	height: 22rem;
-	margin: 0.625rem;
+	width: 32.5%;
+	height: 19rem;
+	margin-left: 0.4rem;
+	margin-right: 0.4rem;
+	margin-bottom: 0.4rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
 }
 .chart5{
 	float: left;
-	margin-left: 15rem;
+	margin-left: 9rem;
+	padding-left: 0.625rem;
 	width: 70%;
-	height: 26.5rem;
+	height: 20rem;
 	margin-top: 1.25rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
@@ -247,34 +260,151 @@ h4{
 	float: right;
 	margin: 0.625rem;
 	width: 60%;
-	height: 25rem;
+	height: 18.5rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
 }
 .chart6{
 	float: left;
-	margin-left: 15rem;
+	padding-left: 0.3125rem;
+	margin-left: 9rem;
 	margin-top: 1.25rem;
 	width: 70%;
-	height: 30%;
+	height: 30rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
 }
 .chart61{
 	float: left;
-	width: 40%;
-	height: 23.5rem;
-	margin: 0.625rem;
+	width: 43%;
+	height: 16rem;
+	margin: 0.25rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
 }
 .chart62{
 	float: right;
 	width: 55%;
-	height: 23.5rem;
+	height: 16rem;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+	margin-right: 0.25rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart7{
+	float: left;
+	margin-left: 8.5rem;
+	margin-top: 1.25rem;
+	width: 75%;
+	height: 20rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart71{
+	float: left;
+	width: 41%;
+	height: 19rem;
+	margin: 0.25rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart72{
+	float: right;
+	width: 57%;
+	height: 19rem;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+	margin-right: 0.25rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart8{
+	float: left;
+	padding-left: 0.625rem;
+	margin-left: 8.5rem;
+	width: 75%;
+	height: 18rem;
+	margin-top: 1.25rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart08{
+	float: right;
+	margin: 0.25rem;
+	width: 50%;
+	height: 17rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart9{
+	float: left;
+	margin-left: 8.5rem;
+	width: 75%;
+	height:20rem;
+	margin-top: 1.25rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart91{
+	float: left;
+	margin-right: 0;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+	margin-left: 0.25rem;
+	width: 48.7%;
+	height: 19rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart92{
+	float: right;
+	margin-left: 0;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+	margin-right: 0.25rem;
+	width: 48.7%;
+	height: 19rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart10{
+	float: left;
+	margin-left: 14rem;
+	width: 75%;
+	height: 32rem;
+	margin-top: 1.25rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart101{
+	float: left;
+	margin-right: 0;
+	margin-top: 0.625rem;
+	margin-bottom: 0.625rem;
+	margin-left: 0.625rem;
+	width: 48.7%;
+	height: 22rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart102{
+	float: right;
+	margin-left: 0;
 	margin-top: 0.625rem;
 	margin-bottom: 0.625rem;
 	margin-right: 0.625rem;
+	width: 48.7%;
+	height: 22rem;
+	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
+	background:rgba(255, 255, 255, 0.05);
+}
+.chart11{
+	float: left;
+	margin-left: 14rem;
+	width: 75%;
+	height: 5rem;
+	margin-top: 1.25rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
 }
