@@ -60,7 +60,7 @@ nav a.active {
 }
 
 #maph {
-	height: 50rem;
+	height: 70rem;
 	width: 90%;
 	padding: 0.3125rem;
 	border: 0.1rem solid rgba(25, 186, 139, 0.17);
@@ -70,22 +70,22 @@ nav a.active {
 }
 
 #section2 {
-	height: 220%;
+	height: 200%;
 
 }
 
 #section3 {
-	height: 160%;
+	height: 140%;
 	background-position: center;
 
 }
 
 #section4 {
-	height: 120%;
+	height: 100%;
 }
 
 #section5 {
-	height: 130%;
+	height: 120%;
 }
 
 
@@ -341,7 +341,7 @@ h5{
 	float: left;
 	margin-left: 8.5rem;
 	width: 75%;
-	height:20rem;
+	height:22rem;
 	margin-top: 1.25rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
@@ -353,7 +353,7 @@ h5{
 	margin-bottom: 0.25rem;
 	margin-left: 0.25rem;
 	width: 48.7%;
-	height: 19rem;
+	height: 21rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
 }
@@ -364,7 +364,7 @@ h5{
 	margin-bottom: 0.25rem;
 	margin-right: 0.25rem;
 	width: 48.7%;
-	height: 19rem;
+	height: 21rem;
 	border: 0.1875rem solid rgba(25, 186, 139, 0.17);	
 	background:rgba(255, 255, 255, 0.05);
 }
