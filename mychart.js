@@ -566,7 +566,7 @@
 
 //2020男女性别比
 (function() {
-	var myChart = echarts.init(document.querySelector(".chart51"));
+	var myChart = echarts.init(document.querySelector(".chart61"));
 	var option = {
 		tooltip: {
 			trigger: 'item',
@@ -632,9 +632,9 @@
 
 //2000,2010,2020性别比例
 (function() {
-	var myChart = echarts.init(document.querySelector(".chart52"));
+	var myChart = echarts.init(document.querySelector(".chart62"));
 	var option = {
-			    color: ['#55aa7f',  '#ff7c54'],
+			    color: ['#55aa7f',  '#ff7c54','#ff0000'],
 		 tooltip: {
 		        trigger: 'axis',
 		        axisPointer: {            // 坐标轴指示器，坐标轴触发有效
@@ -683,7 +683,29 @@
 					splitLine: {
 						show: false
 					}
-		        }
+		        },
+				 {
+				            type: 'value',
+				            name: '性别比',
+							min:100,
+							max:110,
+				            interval: 5,
+				            axisLabel: {
+				                formatter: '{value} °C'
+				            },
+							axisLabel: {
+								color: '#ffffff',
+								fontSize: '20px'
+							},
+							axisLine: {
+								lineStyle:{
+									color:'#ffffff'
+								},
+								},
+							splitLine: {
+								show: false
+							}
+				        }
 		    ],
 		    series: [
 		        {
@@ -701,7 +723,13 @@
 		                focus: 'series'
 		            },
 		            data: [60233.6, 65048.2, 68844]
-		        }
+		        },
+				 {
+				            name: '性别比',
+				            type: 'line',
+				            yAxisIndex: 1,
+				            data: [106.74, 105.2, 105.07]
+				        }
 		    ]
 	};
 	myChart.setOption(option);
